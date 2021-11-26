@@ -10,6 +10,7 @@ this is bad.
 ## Cleaning of Data
 <img src = "images/fintechmeme.png" alt = "lol" width="500" height = "1000"/>
 Cleaning of data feat. TA Hero Gunawan
+
 ## Visualisation of Data
 
 Visualsation of Data was done with mostly hvplot, however the imported library Altair was used as it provided a more efficient way of combined plots together.
@@ -42,3 +43,45 @@ The code is simply a conditional value on whether the value is negative or posit
     ).properties(height = 700, width=1500)' </code>
 
 <img src = "images/historicpercent.png" alt = "bar" width = "900" height = "500"/>
+
+Altair also allows for easy combining of graphs. Combining a line, scatter, area, and area graphs into a simple graph was a simple defining of the plot, followed by the addition numeric function.
+
+<code>
+    
+    base = alt.Chart(source).encode(x='date')
+
+
+    bar = alt.Chart(source).mark_bar().encode(
+    
+    x="date:T",
+    
+    y="volume in 10M USD",
+    
+    color=alt.condition(
+        
+    alt.datum.y > 0,
+        
+    alt.value("steelblue"),  # The positive color
+        
+    alt.value("steelblue")  # The negative color
+    
+    )
+
+    ).properties(width=1500)
+
+
+    line =  base.mark_line(color='black').encode(
+    
+    y='tradecount in 10,000s'
+
+    )
+
+    line2 = base.mark_area(color = 'red').encode(
+    
+    y='percentchange'
+
+    )
+
+    (bar + line + line2).properties(width=1500, height = 900)
+    </code>
+    
