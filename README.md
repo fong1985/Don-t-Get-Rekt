@@ -1,2 +1,2 @@
 # Don't Get Rekt
-!(Images/rekt.jpg)
+!(images/rekt.jpg)
