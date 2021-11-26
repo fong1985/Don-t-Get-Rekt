@@ -1,5 +1,8 @@
 # Don't Get Rekt
 <img src="images/rekt.jpg" alt="rekt" width="400" height="800"/>
+
+### this is bad.
+
 ## Project Goals
 
 /// michael enter goals here ///
@@ -38,4 +41,4 @@ The code is simply a conditional value on whether the value is negative or posit
 
     ).properties(height = 700, width=1500)' </code>
 
-<img src = "images/historicpercent.png" alt = "bar" width = "500" height = "500"/>
+<img src = "images/historicpercent.png" alt = "bar" width = "900" height = "500"/>
