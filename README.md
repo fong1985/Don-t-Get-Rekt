@@ -15,7 +15,9 @@ Documentation of Altair can be found [here.](https://pypi.org/project/altair/)
 For example, bar graphs can easily be made with negative values containing different colours to notate whether the value was negative or positive.
 The code is simply a conditional value on whether the value is negative or positive. 
 
-<code> import altair as alt
+<code> 
+    import altair as alt
+    
     source = trade
 
     alt.Chart(source).mark_bar().encode(
