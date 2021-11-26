@@ -1,7 +1,7 @@
 # Don't Get Rekt
 <img src="images/rekt.jpg" alt="rekt" width="400" height="800"/>
 
-this is bad.
+<span style="font-family:Helvetica; font-size:4em;">This is bad okay.</span>
 
 ## Project Goals
 
