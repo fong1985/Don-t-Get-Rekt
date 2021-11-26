@@ -16,15 +16,23 @@ For example, bar graphs can easily be made with negative values containing diffe
 The code is simply a conditional value on whether the value is negative or positive. 
 
 <code> import altair as alt
-source = trade
-alt.Chart(source).mark_bar().encode(
+    source = trade
+
+    alt.Chart(source).mark_bar().encode(
+    
     x="date",
+    
     y="percentchange",
+    
     color=alt.condition(
-        alt.datum.percentchange > 0,
-        alt.value("steelblue"),# The positive color
-        alt.value("orange")  # The negative color
+        
+    alt.datum.percentchange > 0,
+        
+    alt.value("steelblue"),# The positive color
+       
+    alt.value("orange")  # The negative color
     )
-).properties(height = 700, width=1500)' </code>
+
+    ).properties(height = 700, width=1500)' </code>
 
 <img src = "images/historicpercent.png" alt = "bar" width = "500" height = "500"/>
