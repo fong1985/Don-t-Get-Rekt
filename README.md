@@ -1,2 +1,2 @@
 # Don't Get Rekt
-![lol](images/rekt.jpg = 300x300)
+<img src="images/rekt.jpg" alt="rekt" width="300" height="400"/>
