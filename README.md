@@ -13,6 +13,8 @@ Cleaning of data feat. TA Hero Gunawan
 
 ## Visualisation of Data
 
+### Process of Visualisation
+
 Visualsation of Data was done with mostly hvplot, however the imported library Altair was used as it provided a more efficient way of combined plots together.
 Documentation of Altair can be found [here.](https://pypi.org/project/altair/)
 
@@ -85,3 +87,24 @@ Altair also allows for easy combining of graphs. Combining a line, scatter, area
     (bar + line + line2).properties(width=1500, height = 900)
     </code>
     
+<img src = "images/mid.png" alt = "bar" width = "900" height = "500"/>
+
+### Plots 
+
+<img src = "images/historicohlc" alt = "historicohlc" width = "900" height = "600"/>
+
+An OHLC representation of Bitcoin prices in USD from Binance from the 1/8/2017 to 31/10/2021.
+
+A simple hvplot was used to create this graph. 
+<code>
+    
+    ohlc = prices1.hvplot.ohlc(ylabel = "close", grid = True, xaxis = None, width = 1500)
+    
+    </code>
+    
+Using the RangeToolLink plugin from the Holoviews Library, we are able to 
+
+
+Even though this can be easily found from an exchange, the representation here allows for future slicing of data.
+     
+   
