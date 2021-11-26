@@ -47,7 +47,7 @@ The code is simply a conditional value on whether the value is negative or posit
 <img src = "images/historicpercent.png" alt = "bar" width = "900" height = "500"/>
 
 
-Altair also allows for easy combining of graphs. Combining a line, scatter, area, and area graphs into a simple graph was a simple defining of the plot, followed by the addition numeric function.
+### Altair also allows for easy combining of graphs. Combining a line, scatter, area, and area graphs into a simple graph was a simple defining of the plot, followed by the addition numeric function.
 
 
 <code>
@@ -95,9 +95,9 @@ Altair also allows for easy combining of graphs. Combining a line, scatter, area
 
 <img src = "images/historicohlc.png" alt = "historicohlc" width = "900" height = "300"/>
 
-An OHLC representation of Bitcoin prices in USD from Binance from the 1/8/2017 to 31/10/2021. Even though this can be easily found from an exchange, the representation here allows for future slicing of data.
+### An OHLC representation of Bitcoin prices in USD from Binance from the 1/8/2017 to 31/10/2021. Even though this can be easily found from an exchange, the representation here allows for future slicing of data.
 
-A simple hvplot was used to create this graph. 
+### A simple hvplot was used to create this graph. 
 
 
 <code>
@@ -109,7 +109,7 @@ A simple hvplot was used to create this graph.
     
 
 
-Using the RangeToolLink plugin from the Holoviews Library, we are able to create a combined representation along with volume, and a small scrollable overlay capable of zooming.
+### Using the RangeToolLink plugin from the Holoviews Library, we are able to create a combined representation along with volume, and a small scrollable overlay capable of zooming.
 
 
 <img src = "images/combined.png" alt = "combined" width = "900" height = "600"/>
