@@ -16,6 +16,7 @@ For example, bar graphs can easily be made with negative values containing diffe
 The code is simply a conditional value on whether the value is negative or positive. 
 
 <code> 
+    
     import altair as alt
     
     source = trade
