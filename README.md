@@ -13,4 +13,5 @@ Visualsation of Data was done with mostly hvplot, however the imported library A
 Documentation of Altair can be found [here.](https://pypi.org/project/altair/)
 
 For example, bar graphs can easily be made with negative values containing different colours to notate whether the value was negative or positive.
+
 <img src = "images/historicpercent.png" alt = "bar" width = "500" height = "500"/>
