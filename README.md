@@ -1,2 +1,2 @@
 # Don't Get Rekt
-!(images/rekt.jpg)
+![lol](images/rekt.jpg)
