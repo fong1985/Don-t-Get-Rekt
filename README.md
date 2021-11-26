@@ -91,7 +91,7 @@ Altair also allows for easy combining of graphs. Combining a line, scatter, area
 
 ### Plots 
 
-<img src = "images/historicohlc" alt = "historicohlc" width = "900" height = "600"/>
+<img src = "images/historicohlc.png" alt = "historicohlc" width = "900" height = "600"/>
 
 An OHLC representation of Bitcoin prices in USD from Binance from the 1/8/2017 to 31/10/2021.
 
@@ -102,7 +102,9 @@ A simple hvplot was used to create this graph.
     
     </code>
     
-Using the RangeToolLink plugin from the Holoviews Library, we are able to 
+Using the RangeToolLink plugin from the Holoviews Library, we are able to create a combined representation along with volume, and a small scrollable overlay capable of zooming.
+
+<imgs rc = "images/combined.png" alt = "combined" width = "900" height = "600"/>
 
 
 Even though this can be easily found from an exchange, the representation here allows for future slicing of data.
