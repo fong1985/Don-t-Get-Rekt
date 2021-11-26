@@ -117,19 +117,19 @@ The code is simply a conditional value on whether the value is negative or posit
 
 <code><font size = "14">
     
-    from holoviews.plotting.links import RangeToolLink
+    ## from holoviews.plotting.links import RangeToolLink
     
-    ohlc = prices1.hvplot.ohlc(ylabel = "close", grid = True, xaxis = None, width = 1500)
+    ## ohlc = prices1.hvplot.ohlc(ylabel = "close", grid = True, xaxis = None, width = 1500)
 
-    overview = prices1.hvplot.ohlc(yaxis = None, height = 150, width = 1500)
+    ## overview = prices1.hvplot.ohlc(yaxis = None, height = 150, width = 1500)
 
-    volume1 = prices1.hvplot.step("date", "volume", height = 100, xaxis = None, width = 1500)
+    ## volume1 = prices1.hvplot.step("date", "volume", height = 100, xaxis = None, width = 1500)
 
-    RangeToolLink(overview.get(0), ohlc.get(0))
+    ## RangeToolLink(overview.get(0), ohlc.get(0))
 
-    layout = (ohlc + overview + volume1).cols(1)
+    ## layout = (ohlc + overview + volume1).cols(1)
 
-    layout.opts(merge_tools = False)
+    ## layout.opts(merge_tools = False)
 
     
 <code/><font size/>
