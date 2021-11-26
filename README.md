@@ -115,7 +115,7 @@ The code is simply a conditional value on whether the value is negative or posit
 <img src = "images/combined.png" alt = "combined" width = "900" height = "600"/>
 
 
-<code><font size = "14"
+<code><font size = "14">
     
     from holoviews.plotting.links import RangeToolLink
     
