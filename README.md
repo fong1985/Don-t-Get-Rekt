@@ -52,7 +52,7 @@ The code is simply a conditional value on whether the value is negative or posit
 
     ).properties(height = 700, width=1500)' 
     
-    <code/>
+<code/>
 
 <img src = "images/historicpercent.png" alt = "bar" width = "900" height = "500"/>
 
@@ -97,7 +97,7 @@ Altair also allows for easy combining of graphs. Combining a line, scatter, area
 
     (bar + line + line2).properties(width=1500, height = 900)
     
-    <code/> 
+ <code/> 
     
 <img src = "images/mid.png" alt = "bar" width = "900" height = "500"/>
 
