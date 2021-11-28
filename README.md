@@ -151,58 +151,33 @@ A simple addition of code was used to add a scatter to the line to see the point
 <code> 
     
    volume_5 = vol3.loc["2021-05-20":"2021-10-31"]
+volume_5.reset_index(inplace = True)
+source = volume_5
+base = alt.Chart(source).encode(x='date')
 
-    volume_5.reset_index(inplace = True)
-
-    source = volume_5
-
-    base = alt.Chart(source).encode(x='date')
-
-
-    bar = alt.Chart(source).mark_bar().encode(
-    
+bar = alt.Chart(source).mark_bar().encode(
     x="date:T",
-   
     y="volume in 100M USD",
-    
     color=alt.condition(
-       
-    alt.datum.y > 0,
-        
-    alt.value("steelblue"),  # The positive color
-        
-    alt.value("steelblue")  # The negative color
-    
+        alt.datum.y > 0,
+        alt.value("steelblue"),  # The positive color
+        alt.value("steelblue")  # The negative color
     )
+).properties(width=1500)
 
-    ).properties(width=1500)
-
-
-    line =  base.mark_line(color='black').encode(
-    
+line =  base.mark_line(color='black').encode(
     y='tradecount in 100,000s'
-
-    )
-
-    point2 = base.mark_line(color='black').encode(
-    
+)
+point2 = base.mark_line(color='black').encode(
     y='tradecount in 100,000s'
-
-    )
-
-    line2 = base.mark_line(color = 'red').encode(
-    
+)
+line2 = base.mark_line(color = 'red').encode(
     y='percentchange'
-
-    )    
-
-    point = base.mark_point(color = 'red').encode(
-    
+)    
+point = base.mark_point(color = 'red').encode(
     y='percentchange'
-
-    )
-
-    (bar + line + line2 + point).properties(width=1500, height = 900) <code/>
+)
+(bar + line + line2 + point).properties(width=1500, height = 900) <code/>
     
     
 From these visual representations we can gather that the market is maturing, and that volatility while still high should be less than the previous years. This is due to a rise in liquidity and more institutional interest in cryptocurrencies. However, this also means that the benefits of extremely volatile upswings will also be lessened, and that the days of Bitcoin going from $1 to $20,000 are incredibly unlikely to return. On the positive side (unless you are short BTC), it means that the bear market will be less volatile, as evident the 2018 bear market caused an almost -90% change to Bitcoin's price, while the bear market of 2021 moved the price ~-50%.
