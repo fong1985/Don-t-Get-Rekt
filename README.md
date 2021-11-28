@@ -42,7 +42,7 @@ The code is simply a conditional value on whether the value is negative or posit
     alt.value("orange")  # The negative color
     )
 
-    ).properties(height = 700, width=1500)' </code>
+    ).properties(height = 700, width=1500)' <code/>
 
 <img src = "images/historicpercent.png" alt = "bar" width = "900" height = "500"/>
 
@@ -133,6 +133,8 @@ The code is simply a conditional value on whether the value is negative or posit
 
     
 <code/><font size/>
+    
+#
     
     
 
