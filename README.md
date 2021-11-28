@@ -50,15 +50,19 @@ The code is simply a conditional value on whether the value is negative or posit
     alt.value("orange")  # The negative color
     )
 
-    ).properties(height = 700, width=1500)' <code/>
+    ).properties(height = 700, width=1500)' 
+    
+    <code/>
 
 <img src = "images/historicpercent.png" alt = "bar" width = "900" height = "500"/>
 
+<code><code
 
 Altair also allows for easy combining of graphs. Combining a line, scatter, area, and area graphs into a simple graph was a simple defining of the plot, followed by the addition numeric function.
 
 
 <code>
+    
     base = alt.Chart(source).encode(x='date')
 
     bar = alt.Chart(source).mark_bar().encode(
@@ -93,7 +97,8 @@ Altair also allows for easy combining of graphs. Combining a line, scatter, area
     )
 
     (bar + line + line2).properties(width=1500, height = 900)
-    <code/>
+    
+    <code/> 
     
 <img src = "images/mid.png" alt = "bar" width = "900" height = "500"/>
 
