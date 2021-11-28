@@ -56,7 +56,6 @@ The code is simply a conditional value on whether the value is negative or posit
 
 <img src = "images/historicpercent.png" alt = "bar" width = "900" height = "500"/>
 
-<code><code
 
 Altair also allows for easy combining of graphs. Combining a line, scatter, area, and area graphs into a simple graph was a simple defining of the plot, followed by the addition numeric function.
 
