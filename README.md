@@ -187,9 +187,11 @@ A simple addition of code was used to add a scatter to the line to see the point
     point2 = base.mark_line(color='black').encode(
     
     y='tradecount in 100,000s'
-)
+
+    )
     
-line2 = base.mark_line(color = 'red').encode(
+
+    line2 = base.mark_line(color = 'red').encode(
    
     y='percentchange'
 
