@@ -143,7 +143,7 @@ And early representation of our data, from the period of August 2017 to December
 A representation of the bear market following the 2017-2018 bull cycle. This graph shows the trade volume from 2018 - 2020. The results are similar here, with the largest spike being March 14, where the price of Bitcoin dropped a staggering 40% in a single day. 
     
     
-    <img src = "images/late.png" alt = "late" width = "900" height = "600" />
+<img src = "images/late.png" alt = "late" width = "900" height = "600" />
     
 2020 onwards to October 2021. This bull cycle shows a maturing market compared to the 2017 bull. The swings are smaller with larger trade volume. This shows greater market depth and liquidity. 
     
