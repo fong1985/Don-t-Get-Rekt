@@ -18,10 +18,13 @@ Cleaning of data feat. TA Hero Gunawan
 Visualsation of Data was done with mostly hvplot, however the imported library Altair was used as it provided a more efficient way of combined plots together.
 Documentation of Altair can be found [here.](https://pypi.org/project/altair/)
 
-The installation is simply <code> 
+The installation is simply 
+
+<code> 
     
     pip install altair
-    <code/>
+    
+<code/>
 
 For example, bar graphs can easily be made with negative values containing different colours to notate whether the value was negative or positive.
 The code is simply a conditional value on whether the value is negative or positive. 
