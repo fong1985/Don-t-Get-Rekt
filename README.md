@@ -20,7 +20,7 @@ Documentation of Altair can be found [here.](https://pypi.org/project/altair/)
 
 The installation is simply 
 
-<code> 
+<code>
     
     pip install altair
   
