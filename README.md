@@ -5,7 +5,7 @@
 
 ## Project Goals
 
-/// michael enter goals here ///
+ michael enter goals here
 
 ## Cleaning of Data
 <img src = "images/fintechmeme.png" alt = "lol" width="500" height = "1000"/>
