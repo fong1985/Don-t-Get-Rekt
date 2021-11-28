@@ -112,7 +112,7 @@ The code is simply a conditional value on whether the value is negative or posit
 ### Using the RangeToolLink plugin from the Holoviews Library, we are able to create a combined representation along with volume, and a small scrollable overlay capable of zooming.
 
 
-<img src = "images/combined.png" alt = "combined" width = "900" height = "600"/>
+<img src = "images/combined.png" alt = "combined" width = "1300" height = "600"/>
 
 
 <code><font size = "14">
