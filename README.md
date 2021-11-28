@@ -125,7 +125,7 @@ Using the RangeToolLink plugin from the Holoviews Library, we are able to create
 <img src = "images/combined.png" alt = "combined" width = "1300" height = "500"/>
 
 
-<code><font size = "14">
+<code>
     
     from holoviews.plotting.links import RangeToolLink
     
@@ -142,7 +142,7 @@ Using the RangeToolLink plugin from the Holoviews Library, we are able to create
     layout.opts(merge_tools = False)
 
     
-<code/><font size/>
+<code/>
     
 <img src = "images/early.png" alt = "early" width = "900" height = "600"/>
     
@@ -213,7 +213,9 @@ A simple addition of code was used to add a scatter to the line to see the point
 
     )
 
-    (bar + line + line2 + point).properties(width=1500, height = 900) <code/>
+    (bar + line + line2 + point).properties(width=1500, height = 900)
+    
+    <code/>
     
     
 From these visual representations we can gather that the market is maturing, and that volatility while still high should be less than the previous years. This is due to a rise in liquidity and more institutional interest in cryptocurrencies. However, this also means that the benefits of extremely volatile upswings will also be lessened, and that the days of Bitcoin going from $1 to $20,000 are incredibly unlikely to return. On the positive side (unless you are short BTC), it means that the bear market will be less volatile, as evident the 2018 bear market caused an almost -90% change to Bitcoin's price, while the bear market of 2021 moved the price ~-50%.
