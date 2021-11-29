@@ -23,7 +23,7 @@ The installation is simply
 
 <code> 
     
-    pip install altair </code>
+    pip install altair <code/>
   
 
 
