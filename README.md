@@ -220,16 +220,6 @@ A simple addition of code was used to add a scatter to the line to see the point
     
 </code>
     
-## **Technical Indicators**
-
-### **Standard Deviation and Volatility**
-
-///PHIL ENTER YOUR CONTENT HERE///
-
-### **Support and resistance Levels** 
-
-///PHIL ENTER YOUR CONTENT HERE///
-
 ### **On Balance Volume**
 
 On Balance Volume or OBV is an indication of buying and selling pressure and is used to measure positive and negative volume flow.
