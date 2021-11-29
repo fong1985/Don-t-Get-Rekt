@@ -268,7 +268,7 @@ From these visual representations we can gather that the market is maturing, and
 ### OBV
 OBV can be used as a leading indicator of market pressure to determine when the large players are taking positions. However the results need to be filtered to follow the price trend. 
 
-. Stochastic Oscillator
+### Stochastic Oscillator
 The Stochastic Oscillator can be used to determine price momentum and if a stock is overbought or oversold. Similarly as with OBV, the results require filtering to only take up those signals that follow the price. 
 
 ### Sharpe Ratio
