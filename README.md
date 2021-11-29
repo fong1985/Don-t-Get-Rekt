@@ -53,7 +53,7 @@ The code is simply a conditional value on whether the value is negative or posit
 
     ).properties(height = 700, width=1500)' 
     
-    </code>
+</code>
 
 <img src = "images/historicpercent.png" alt = "bar" width = "900" height = "500"/>
 
@@ -142,8 +142,6 @@ Using the RangeToolLink plugin from the Holoviews Library, we are able to create
 
     layout.opts(merge_tools = False)
 
-
-
 </code>
 
 ## Plotting Price & Volume data 
@@ -162,6 +160,7 @@ A representation of the bear market following the 2017-2018 bull cycle. This gra
 2020 onwards to October 2021. This bull cycle shows a maturing market compared to the 2017 bull. The swings are smaller with larger trade volume. This shows greater market depth and liquidity. 
 Here a scatter + line plot was used to plot the price % change. An area graph would have covered the data slightly.
 A simple addition of code was used to add a scatter to the line to see the points more clearly.
+
 <code> 
     
     volume_5 = vol3.loc["2021-05-20":"2021-10-31"]
