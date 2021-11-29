@@ -26,3 +26,6 @@ The installation is simply
     pip install altair
   
 <code/>
+
+For example, bar graphs can easily be made with negative values containing different colours to notate whether the value was negative or positive.
+The code is simply a conditional value on whether the value is negative or positive. 
