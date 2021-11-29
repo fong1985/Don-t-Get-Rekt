@@ -275,19 +275,19 @@ From these visual representations we can gather that the market is maturing, and
 
 ## Can these technical indicators be used as market signals to forecast future Bitcoin prices?
 
-. ### OBV
+### OBV
 OBV can be used as a leading indicator of market pressure to determine when the large players are taking positions. However the results need to be filtered to follow the price trend. 
 
 . ### Stochastic Oscillator
 The Stochastic Oscillator can be used to determine price momentum and if a stock is overbought or oversold. Similarly as with OBV, the results require filtering to only take up those signals that follow the price. 
 
-. ### Sharpe Ratio
+### Sharpe Ratio
 The Sharpe ratio indicates how well an equity investment performs in comparison to the rate of return.
 <img src = "images/Sharpe Ratio, Standard Deviation.png" alt = "late" width = "1300" height = "600" />
 
 In our analysis of the Bitcoin pricing over the last four years, while separating the Bitcoin cycle into historical moments of its price, the Sharpe Ratio seem to appear really low, which would lead to the observation that investing in Bitcoin is a very risky.
 
-. ### Standard Deviation
+### Standard Deviation
 Even though it has been observed that the price of Bitcoin appears to be very risky, hence the value of the Sharpe Ratio being very low, it would appear that the Standard Deviation of the price changes of Bitcoin is, to our surprise, very low, being at roughly 0.05, implying that even though the risk of investing in Bitcoin is potentially high, the price change does not change drastically, leading to the possibility of the price of Bitcoin following a predictive course.
     
     
