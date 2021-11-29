@@ -25,7 +25,7 @@ The installation is simply
     
     pip install altair 
     
-    <code/>
+<code/>
   
 
 
