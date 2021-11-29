@@ -98,7 +98,7 @@ Altair also allows for easy combining of graphs. Combining a line, scatter, area
 
     (bar + line + line2).properties(width=1500, height = 900)
     
-    </code> 
+</code> 
     
 <img src = "images/mid.png" alt = "bar" width = "900" height = "500"/>
 
