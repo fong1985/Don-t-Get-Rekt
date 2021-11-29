@@ -13,3 +13,16 @@ We would examine the relationships between liquidations, price & futures data, v
 Cleaning of data feat. TA Hero Gunawan
 
 ## Visualisation of Data
+
+### Process of Visualisation
+
+Visualsation of Data was done with mostly hvplot, however the imported library Altair was used as it provided a more efficient way of combined plots together.
+Documentation of Altair can be found [here.](https://pypi.org/project/altair/)
+
+The installation is simply 
+
+<code> 
+    
+    pip install altair
+  
+<code/>
