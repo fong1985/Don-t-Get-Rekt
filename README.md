@@ -256,7 +256,7 @@ Signals are created when %K and %D intersect that may signify a change in moment
 When looking at the trend for the period 8 December 2018 - 16 March 2020, OBV trends upwards as the market recovers all time low of December 2018. Key support levels are reached from January 2019 into April 2021 around the USD4,000 mark. Once this support level was broken in April, this was the trigger for a steep upward trend.
 
 ### Stochastic Oscillator for the period 8 December 2018 - 15 March 2020
-<img src = "images/oscillator_period_3.PNG" alt = "late" width = "1300" height = "600" />
+<img src = "images/oscillator_period_3.PNG" alt = "late" width = "1500" height = "400" />
 
 This upward trend was also confirmed in the Stochastic Oscillator where there was no contest in buying momentum when looking at the oversold ranges (i.e. BTC does not encounter selling pressure) until July 2021, but not before increasing 330% to USD13,500.
 
