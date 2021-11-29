@@ -6,7 +6,7 @@
 ## Project Goals
 
 Our Project goal was to analyse trends using Bitcoin liquidation data. 
-We would examine the realtionshits between liquidations, price & futures data, volume and use technical analysis to attempt to arrive at reliable market signals.
+We would examine the relationships between liquidations, price & futures data, volume and use technical analysis to attempt to arrive at reliable market signals.
 
 ## Cleaning of Data
 <img src = "images/fintechmeme.png" alt = "lol" width="500" height = "1000"/>
